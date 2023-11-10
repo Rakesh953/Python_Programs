@@ -1,0 +1,9 @@
+num=12
+pos=1
+sum=0
+while(num!=0):
+    rem=num%2
+    sum=rem*pos+sum
+    pos=pos*10
+    num//=2
+print(sum)
